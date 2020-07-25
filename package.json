@@ -1,0 +1,22 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "Test Directory Carlos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccolman/git-test.git"
+  },
+  "author": "Carlos Colman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccolman/git-test/issues"
+  },
+  "homepage": "https://github.com/ccolman/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
