@@ -12,7 +12,7 @@ def solve(Pnodes, Nodenum, VNodenum, VNFnum, VNF, SFCnum, Source, Destination, S
         Pnodes_before[i][1] = Pnodes[i].get('Pbw')
         Pnodes_before[i][2] = Pnodes[i].get('Poeo')
     Pnodes_used = [[0 for feature in range(3)] for i in range(VNodenum)]
-
+#THIS IS A TEST OF GIT
     #Generate Initial Solutions for the Latency Minimization
     for i in range(VNodenum):
         Pnodes_used[i][0] = Pnodes_before[i][0]
